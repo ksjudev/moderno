@@ -386,3 +386,35 @@
     }
     
     // end author
+    // start tutorial
+    .tutorial {
+        padding: 70px 0 120px;
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__item {
+            max-width: 360px;
+            width: 100%;
+        }
+    }
+    
+    .tutorial__item {
+        &-images {
+            min-height: 270px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-title {
+            background-color: #f8f8f8;
+            font-size: 24px;
+            text-align: center;
+            font-family: "Roboto-Bold", sans-serif;
+            font-weight: 700;
+            padding: 30px 10px;
+            color: $bg;
+        }
+    }
+    
+    // end tutorial
